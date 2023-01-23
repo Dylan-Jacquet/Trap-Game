@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+body{
+    background-color: beige;
+}
+
+h1{
+    text-align: center;
+    background-color: #183a37;
+    color: white;
+    font: 2rem Helvetica,Arial;
+    padding: 1rem;
+    font-weight: 700;
+}
+.play-section{
+    margin: 12rem auto 0;
+    text-align: center;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.play,
+.information,
+.playAgain{
+    text-align: center;
+    display: block;
+    font: 1rem Helvetica,Arial;
+    font-weight: 700;
+    padding: 1rem 5.5rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+    margin: 1rem auto 0;
+    min-width: 18rem;
+}
+.play:hover,
+.information:hover,
+.playAgain:hover{
+    border: 2px solid #183a37;
+    background-color: #183a37;
+    color: white;
+}
+
+section{
+    margin: 2rem auto 0;
+    max-width: 50%;
+}
+
+h2{
+    margin-top: 1.5rem;
+    font: 1.5rem Helvetica, Arial;
+    font-weight: 500;
+}
+
+h2 span{
+    font-weight: 700;
+}
+
+p{
+    font: 1rem Helvetica,Arial;
+    display: inline;
+}
+.timer{
+    margin-left: 23rem;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+input[type="button"]{
+    display: inline-block;
+    margin-top: 1rem;
+    font: 1rem Helvetica,Arial;
+    font-weight: 700;
+    padding: 1rem 1.5rem;
+    border-radius: .5rem;
+    border: 2px solid black;
+}
+input[type="button"]:hover{
+    border: 2px solid #183a37;
+    background-color: #183a37;
+    color: white;
+}
+
+.containerButton{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.hidden{
+    display: none;
+}
+
+.difficulty-section h2{
+    text-align: center;
+}
+
+.containerButton .good{
+    border-color: darkgreen;
+    background-color: darkgreen;
+    color: white;
+}
+.trapBtn {
+    color: darkred;
+}
+
+.back{
+    display: block;
+    text-transform: uppercase;
+    font: 1rem Helvetica, arial;
+    margin: 1rem 0 1rem;
+}
+
+.information-section h2{
+    display: block;
+    margin: 1rem auto;
+    font-weight: 700;
+}
+.game{
+    position: relative;
+}
+footer small{
+    font: 1rem Helvetica,Arial;
+    font-weight: 700;
+}
+footer{
+    position: fixed;
+    right: 1rem;
+    bottom: 1rem;
+    width: 100%;
+    text-align: right;
+}

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta name="description" content="$1">
+    <meta name="keywords" content="">
+    <meta name="author" content="Dylan Jacquet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>
+        Trap Game
+    </title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+<body>
+<h1>Trap Game</h1>
+<section class="play-section">
+    <h2>Launch the game !</h2>
+    <input type="submit" value="Play" class="play">
+    <input type="submit" value="Information" class="information">
+</section>
+<section class="difficulty-section hidden">
+    <h2>Choix de la difficulté</h2>
+    <input type="submit" value="Facile" class="play difficultyBtn" data-number="4">
+    <input type="submit" value="Intermédiaire" class="play difficultyBtn" data-number="8">
+    <input type="submit" value="Difficile" class="play difficultyBtn" data-number="12">
+</section>
+<section class="information-section hidden">
+    <p class="back"> <- Retour</p>
+    <h2>Informations</h2>
+    <p>
+        Le principe de ce jeu est de choisir le bon bouton entre différents boutons,
+        bien sûr il y a des boutons piégés. Il vous faudra faire les bons choix pour ne pas vous tromper.
+    </p>
+</section>
+<section class="game hidden">
+    <p class="score">Score : <span>0</span></p>
+    <p class="timer">Timer : <span>00:00</span></p>
+    <h2>Level <span>1</span></h2>
+    <div class="buttonSection"></div>
+    <div class="containerButton">
+    </div>
+    <input type="submit" value="Play Again" class="playAgain hidden">
+</section>
+<footer>
+    <small>© : DYLAN JACQUET</small>
+</footer>
+<script src="./main.js"></script>
+</body>
+</html>
